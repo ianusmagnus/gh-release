@@ -9,40 +9,23 @@
 package main
 
 import (
-	"context"
+	"flag"
 	"fmt"
-
-	"github.com/google/go-github/v31/github"
+	"github.com/ianusmagnus/gh-release/ghutil"
+	"os"
 )
 
-// Fetch all the public organizations' membership of a user.
-//
-func fetchOrganizations(username string) ([]*github.Organization, error) {
-	client := github.NewClient(nil)
-	orgs, _, err := client.Organizations.List(context.Background(), username, nil)
-	return orgs, err
-}
-
-func fetchRepo(username string) ([]*github.Repository, error) {
-	client := github.NewClient(nil)
-	repos, _, err := client.Repositories.List(context.Background(), username, nil)
-	return repos, err
-}
-
 func main() {
-	var username string
-	//fmt.Print("Enter GitHub username: ")
-	//fmt.Scanf("%s", &username)
 
-	username = "ianusmagnus"
+	username := flag.String("username", "", "github username")
+	pat := flag.String("pat", "", "github personal access token")
+	repo := flag.String("repo", "", "github repository")
 
-	organizations, err := fetchRepo(username)
+	creator := ghutil.NewReleaseCreator(*username, *pat, *repo)
+
+	err := creator.CreateRelease()
 	if err != nil {
-		fmt.Printf("Error: %v\n", err)
-		return
-	}
-
-	for i, organization := range organizations {
-		fmt.Printf("%v. %v\n", i+1, organization.GetGitURL())
+		fmt.Printf("Creating release failed: %+v", err)
+		os.Exit(1)
 	}
 }
