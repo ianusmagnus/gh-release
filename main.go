@@ -9,21 +9,42 @@
 package main
 
 import (
+	"context"
 	"flag"
 	"fmt"
 	"github.com/ianusmagnus/gh-release/ghutil"
+	"github.com/ianusmagnus/gh-release/ghutil/client"
+	log "github.com/sirupsen/logrus"
 	"os"
 )
 
 func main() {
 
-	username := flag.String("username", "", "github username")
-	pat := flag.String("pat", "", "github personal access token")
-	repo := flag.String("repo", "", "github repository")
+	username := flag.String("username", "", "github username (Required)")
+	pat := flag.String("pat", "", "github personal access token (Required)")
+	repo := flag.String("repo", "", "github repository (Required)")
+	name := flag.String("name", "", "name and tag of the release (Required)")
+	verbose := flag.Bool("verbose", false, "verbose mode")
 
-	creator := ghutil.NewReleaseCreator(*username, *pat, *repo)
+	flag.Parse()
 
-	err := creator.CreateRelease()
+	if *verbose {
+		log.SetLevel(log.DebugLevel)
+	}
+
+	if *username == "" || *pat == "" || *repo == "" {
+		flag.PrintDefaults()
+		os.Exit(1)
+	}
+
+	log.Info("Creating new client")
+	ctx := context.Background()
+
+	githubClient := client.NewClient(ctx, *pat)
+
+	creator := ghutil.NewReleaseCreator(githubClient, ctx, *username, *repo)
+
+	err := creator.CreateNewRelease(*name)
 	if err != nil {
 		fmt.Printf("Creating release failed: %+v", err)
 		os.Exit(1)

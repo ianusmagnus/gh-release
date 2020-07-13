@@ -1,0 +1,362 @@
+[
+  {
+    "sha": "e070e480bb7180507795406a5e4bf2b2c94a8b94",
+    "node_id": "MDY6Q29tbWl0MjYzMDgzOTc0OmUwNzBlNDgwYmI3MTgwNTA3Nzk1NDA2YTVlNGJmMmIyYzk0YThiOTQ=",
+    "commit": {
+      "author": {
+        "name": "Kirchner, Jan (415)",
+        "email": "jan.kirchner@daimler.com",
+        "date": "2020-07-13T10:55:04Z"
+      },
+      "committer": {
+        "name": "Kirchner, Jan (415)",
+        "email": "jan.kirchner@daimler.com",
+        "date": "2020-07-13T10:55:04Z"
+      },
+      "message": "change Mon Jul 13 12:55:04 CEST 2020",
+      "tree": {
+        "sha": "a82a22a71a16be996205b521e5f4b7a4739ed4d2",
+        "url": "https://api.github.com/repos/jank6r/release-test/git/trees/a82a22a71a16be996205b521e5f4b7a4739ed4d2"
+      },
+      "url": "https://api.github.com/repos/jank6r/release-test/git/commits/e070e480bb7180507795406a5e4bf2b2c94a8b94",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/jank6r/release-test/commits/e070e480bb7180507795406a5e4bf2b2c94a8b94",
+    "html_url": "https://github.com/jank6r/release-test/commit/e070e480bb7180507795406a5e4bf2b2c94a8b94",
+    "comments_url": "https://api.github.com/repos/jank6r/release-test/commits/e070e480bb7180507795406a5e4bf2b2c94a8b94/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "91a6a7efe75fcdcd7090d7d4e19bb7a00b1be30e",
+        "url": "https://api.github.com/repos/jank6r/release-test/commits/91a6a7efe75fcdcd7090d7d4e19bb7a00b1be30e",
+        "html_url": "https://github.com/jank6r/release-test/commit/91a6a7efe75fcdcd7090d7d4e19bb7a00b1be30e"
+      }
+    ]
+  },
+  {
+    "sha": "91a6a7efe75fcdcd7090d7d4e19bb7a00b1be30e",
+    "node_id": "MDY6Q29tbWl0MjYzMDgzOTc0OjkxYTZhN2VmZTc1ZmNkY2Q3MDkwZDdkNGUxOWJiN2EwMGIxYmUzMGU=",
+    "commit": {
+      "author": {
+        "name": "Kirchner, Jan (415)",
+        "email": "jan.kirchner@daimler.com",
+        "date": "2020-07-12T18:09:19Z"
+      },
+      "committer": {
+        "name": "Kirchner, Jan (415)",
+        "email": "jan.kirchner@daimler.com",
+        "date": "2020-07-12T18:09:19Z"
+      },
+      "message": "change Sun Jul 12 20:09:19 CEST 2020",
+      "tree": {
+        "sha": "b251c2bcb20fdacad1d40e92fd7c0045dbcfa82f",
+        "url": "https://api.github.com/repos/jank6r/release-test/git/trees/b251c2bcb20fdacad1d40e92fd7c0045dbcfa82f"
+      },
+      "url": "https://api.github.com/repos/jank6r/release-test/git/commits/91a6a7efe75fcdcd7090d7d4e19bb7a00b1be30e",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/jank6r/release-test/commits/91a6a7efe75fcdcd7090d7d4e19bb7a00b1be30e",
+    "html_url": "https://github.com/jank6r/release-test/commit/91a6a7efe75fcdcd7090d7d4e19bb7a00b1be30e",
+    "comments_url": "https://api.github.com/repos/jank6r/release-test/commits/91a6a7efe75fcdcd7090d7d4e19bb7a00b1be30e/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "d583958aede3f5fa97e57485ea85360b5de1ad86",
+        "url": "https://api.github.com/repos/jank6r/release-test/commits/d583958aede3f5fa97e57485ea85360b5de1ad86",
+        "html_url": "https://github.com/jank6r/release-test/commit/d583958aede3f5fa97e57485ea85360b5de1ad86"
+      }
+    ]
+  },
+  {
+    "sha": "d583958aede3f5fa97e57485ea85360b5de1ad86",
+    "node_id": "MDY6Q29tbWl0MjYzMDgzOTc0OmQ1ODM5NThhZWRlM2Y1ZmE5N2U1NzQ4NWVhODUzNjBiNWRlMWFkODY=",
+    "commit": {
+      "author": {
+        "name": "Kirchner, Jan (415)",
+        "email": "jan.kirchner@daimler.com",
+        "date": "2020-05-19T07:17:22Z"
+      },
+      "committer": {
+        "name": "Kirchner, Jan (415)",
+        "email": "jan.kirchner@daimler.com",
+        "date": "2020-05-19T07:17:22Z"
+      },
+      "message": "change Tue May 19 09:17:22 CEST 2020",
+      "tree": {
+        "sha": "66229bed597859fe5bef2c43293393e61cbe1a44",
+        "url": "https://api.github.com/repos/jank6r/release-test/git/trees/66229bed597859fe5bef2c43293393e61cbe1a44"
+      },
+      "url": "https://api.github.com/repos/jank6r/release-test/git/commits/d583958aede3f5fa97e57485ea85360b5de1ad86",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/jank6r/release-test/commits/d583958aede3f5fa97e57485ea85360b5de1ad86",
+    "html_url": "https://github.com/jank6r/release-test/commit/d583958aede3f5fa97e57485ea85360b5de1ad86",
+    "comments_url": "https://api.github.com/repos/jank6r/release-test/commits/d583958aede3f5fa97e57485ea85360b5de1ad86/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "6e5447d4e576ff3c73dabc3aca3e1e17c2275563",
+        "url": "https://api.github.com/repos/jank6r/release-test/commits/6e5447d4e576ff3c73dabc3aca3e1e17c2275563",
+        "html_url": "https://github.com/jank6r/release-test/commit/6e5447d4e576ff3c73dabc3aca3e1e17c2275563"
+      }
+    ]
+  },
+  {
+    "sha": "6e5447d4e576ff3c73dabc3aca3e1e17c2275563",
+    "node_id": "MDY6Q29tbWl0MjYzMDgzOTc0OjZlNTQ0N2Q0ZTU3NmZmM2M3M2RhYmMzYWNhM2UxZTE3YzIyNzU1NjM=",
+    "commit": {
+      "author": {
+        "name": "Kirchner, Jan (415)",
+        "email": "jan.kirchner@daimler.com",
+        "date": "2020-05-11T17:08:31Z"
+      },
+      "committer": {
+        "name": "Kirchner, Jan (415)",
+        "email": "jan.kirchner@daimler.com",
+        "date": "2020-05-11T17:08:31Z"
+      },
+      "message": "change Mon May 11 19:08:31 CEST 2020",
+      "tree": {
+        "sha": "33f4d70c8b4fb4424e1a2edf4f73f4ccf08957dd",
+        "url": "https://api.github.com/repos/jank6r/release-test/git/trees/33f4d70c8b4fb4424e1a2edf4f73f4ccf08957dd"
+      },
+      "url": "https://api.github.com/repos/jank6r/release-test/git/commits/6e5447d4e576ff3c73dabc3aca3e1e17c2275563",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/jank6r/release-test/commits/6e5447d4e576ff3c73dabc3aca3e1e17c2275563",
+    "html_url": "https://github.com/jank6r/release-test/commit/6e5447d4e576ff3c73dabc3aca3e1e17c2275563",
+    "comments_url": "https://api.github.com/repos/jank6r/release-test/commits/6e5447d4e576ff3c73dabc3aca3e1e17c2275563/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "1897652fd0617f02c16d96dafc45f96f8651eb65",
+        "url": "https://api.github.com/repos/jank6r/release-test/commits/1897652fd0617f02c16d96dafc45f96f8651eb65",
+        "html_url": "https://github.com/jank6r/release-test/commit/1897652fd0617f02c16d96dafc45f96f8651eb65"
+      }
+    ]
+  },
+  {
+    "sha": "1897652fd0617f02c16d96dafc45f96f8651eb65",
+    "node_id": "MDY6Q29tbWl0MjYzMDgzOTc0OjE4OTc2NTJmZDA2MTdmMDJjMTZkOTZkYWZjNDVmOTZmODY1MWViNjU=",
+    "commit": {
+      "author": {
+        "name": "Kirchner, Jan (415)",
+        "email": "jan.kirchner@daimler.com",
+        "date": "2020-05-11T17:08:29Z"
+      },
+      "committer": {
+        "name": "Kirchner, Jan (415)",
+        "email": "jan.kirchner@daimler.com",
+        "date": "2020-05-11T17:08:29Z"
+      },
+      "message": "change Mon May 11 19:08:29 CEST 2020",
+      "tree": {
+        "sha": "326e1f9c42c3c700d39c7c0c9f8306807182b250",
+        "url": "https://api.github.com/repos/jank6r/release-test/git/trees/326e1f9c42c3c700d39c7c0c9f8306807182b250"
+      },
+      "url": "https://api.github.com/repos/jank6r/release-test/git/commits/1897652fd0617f02c16d96dafc45f96f8651eb65",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/jank6r/release-test/commits/1897652fd0617f02c16d96dafc45f96f8651eb65",
+    "html_url": "https://github.com/jank6r/release-test/commit/1897652fd0617f02c16d96dafc45f96f8651eb65",
+    "comments_url": "https://api.github.com/repos/jank6r/release-test/commits/1897652fd0617f02c16d96dafc45f96f8651eb65/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "357b6097f5bd3145d7289db41d742e89d4d41460",
+        "url": "https://api.github.com/repos/jank6r/release-test/commits/357b6097f5bd3145d7289db41d742e89d4d41460",
+        "html_url": "https://github.com/jank6r/release-test/commit/357b6097f5bd3145d7289db41d742e89d4d41460"
+      }
+    ]
+  },
+  {
+    "sha": "357b6097f5bd3145d7289db41d742e89d4d41460",
+    "node_id": "MDY6Q29tbWl0MjYzMDgzOTc0OjM1N2I2MDk3ZjViZDMxNDVkNzI4OWRiNDFkNzQyZTg5ZDRkNDE0NjA=",
+    "commit": {
+      "author": {
+        "name": "Kirchner, Jan (415)",
+        "email": "jan.kirchner@daimler.com",
+        "date": "2020-05-11T17:08:27Z"
+      },
+      "committer": {
+        "name": "Kirchner, Jan (415)",
+        "email": "jan.kirchner@daimler.com",
+        "date": "2020-05-11T17:08:27Z"
+      },
+      "message": "change Mon May 11 19:08:27 CEST 2020",
+      "tree": {
+        "sha": "1c5eaf824c72f2444ab1c26655ee69d055c18ed6",
+        "url": "https://api.github.com/repos/jank6r/release-test/git/trees/1c5eaf824c72f2444ab1c26655ee69d055c18ed6"
+      },
+      "url": "https://api.github.com/repos/jank6r/release-test/git/commits/357b6097f5bd3145d7289db41d742e89d4d41460",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/jank6r/release-test/commits/357b6097f5bd3145d7289db41d742e89d4d41460",
+    "html_url": "https://github.com/jank6r/release-test/commit/357b6097f5bd3145d7289db41d742e89d4d41460",
+    "comments_url": "https://api.github.com/repos/jank6r/release-test/commits/357b6097f5bd3145d7289db41d742e89d4d41460/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "16fae25a52bcd3c31c23c1560f265f41c57a9e32",
+        "url": "https://api.github.com/repos/jank6r/release-test/commits/16fae25a52bcd3c31c23c1560f265f41c57a9e32",
+        "html_url": "https://github.com/jank6r/release-test/commit/16fae25a52bcd3c31c23c1560f265f41c57a9e32"
+      }
+    ]
+  },
+  {
+    "sha": "16fae25a52bcd3c31c23c1560f265f41c57a9e32",
+    "node_id": "MDY6Q29tbWl0MjYzMDgzOTc0OjE2ZmFlMjVhNTJiY2QzYzMxYzIzYzE1NjBmMjY1ZjQxYzU3YTllMzI=",
+    "commit": {
+      "author": {
+        "name": "Kirchner, Jan (415)",
+        "email": "jan.kirchner@daimler.com",
+        "date": "2020-05-11T15:39:22Z"
+      },
+      "committer": {
+        "name": "Kirchner, Jan (415)",
+        "email": "jan.kirchner@daimler.com",
+        "date": "2020-05-11T15:39:22Z"
+      },
+      "message": "first commit",
+      "tree": {
+        "sha": "cca226e03292a23676a8bf98a988ce14729c9a4c",
+        "url": "https://api.github.com/repos/jank6r/release-test/git/trees/cca226e03292a23676a8bf98a988ce14729c9a4c"
+      },
+      "url": "https://api.github.com/repos/jank6r/release-test/git/commits/16fae25a52bcd3c31c23c1560f265f41c57a9e32",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/jank6r/release-test/commits/16fae25a52bcd3c31c23c1560f265f41c57a9e32",
+    "html_url": "https://github.com/jank6r/release-test/commit/16fae25a52bcd3c31c23c1560f265f41c57a9e32",
+    "comments_url": "https://api.github.com/repos/jank6r/release-test/commits/16fae25a52bcd3c31c23c1560f265f41c57a9e32/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "5ea5debd404a0e7bf5d6fe0433f9e112bb8d2339",
+        "url": "https://api.github.com/repos/jank6r/release-test/commits/5ea5debd404a0e7bf5d6fe0433f9e112bb8d2339",
+        "html_url": "https://github.com/jank6r/release-test/commit/5ea5debd404a0e7bf5d6fe0433f9e112bb8d2339"
+      }
+    ]
+  },
+  {
+    "sha": "5ea5debd404a0e7bf5d6fe0433f9e112bb8d2339",
+    "node_id": "MDY6Q29tbWl0MjYzMDgzOTc0OjVlYTVkZWJkNDA0YTBlN2JmNWQ2ZmUwNDMzZjllMTEyYmI4ZDIzMzk=",
+    "commit": {
+      "author": {
+        "name": "ianusmagnus",
+        "email": "jan.kirchner@gmail.com",
+        "date": "2020-05-11T15:34:27Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-05-11T15:34:27Z"
+      },
+      "message": "Initial commit",
+      "tree": {
+        "sha": "bf3f59f47f185149a7133ba08b9b38b9a67c5426",
+        "url": "https://api.github.com/repos/jank6r/release-test/git/trees/bf3f59f47f185149a7133ba08b9b38b9a67c5426"
+      },
+      "url": "https://api.github.com/repos/jank6r/release-test/git/commits/5ea5debd404a0e7bf5d6fe0433f9e112bb8d2339",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJeuXCDCRBK7hj4Ov3rIwAAdHIIAFSXYV439RoRY2QEJ2xhA6/U\ngDiPT9+996ACufm32bpbURq/ECXpHITCwL4xTAzkxMqrq90KojAYsnia4mTSvV6p\ncp4TbTFevmEWlVLD+ml+A48UF7Wi1Ob/jnXUosyjNB8LyCKJ5Lv13iVqpPZgJzd7\nwZEqRfogRz4fsxIgtQQIm3s8WC2xwi5tcQcz112IvttpCPhZgLZ35A+tvPiJFf+e\nELs7mOjcfUn/izH7sm3W0nwf2wnAL1VpLn7ExLK0ZWZMimKeRZrhSyOKAacdrr2b\nyrnsIkWo9qUhvD00oI786s0wqTOxzlGLIFThXbZngq1BTpAH54V03LQ2z2Y3D3I=\n=MW7t\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree bf3f59f47f185149a7133ba08b9b38b9a67c5426\nauthor ianusmagnus <jan.kirchner@gmail.com> 1589211267 +0200\ncommitter GitHub <noreply@github.com> 1589211267 +0200\n\nInitial commit"
+      }
+    },
+    "url": "https://api.github.com/repos/jank6r/release-test/commits/5ea5debd404a0e7bf5d6fe0433f9e112bb8d2339",
+    "html_url": "https://github.com/jank6r/release-test/commit/5ea5debd404a0e7bf5d6fe0433f9e112bb8d2339",
+    "comments_url": "https://api.github.com/repos/jank6r/release-test/commits/5ea5debd404a0e7bf5d6fe0433f9e112bb8d2339/comments",
+    "author": {
+      "login": "jank6r",
+      "id": 5673107,
+      "node_id": "MDQ6VXNlcjU2NzMxMDc=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5673107?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jank6r",
+      "html_url": "https://github.com/jank6r",
+      "followers_url": "https://api.github.com/users/jank6r/followers",
+      "following_url": "https://api.github.com/users/jank6r/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jank6r/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jank6r/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jank6r/subscriptions",
+      "organizations_url": "https://api.github.com/users/jank6r/orgs",
+      "repos_url": "https://api.github.com/users/jank6r/repos",
+      "events_url": "https://api.github.com/users/jank6r/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jank6r/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": []
+  }
+]

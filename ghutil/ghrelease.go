@@ -5,29 +5,20 @@ import (
 	"context"
 	"fmt"
 	"github.com/google/go-github/v31/github"
+	"github.com/ianusmagnus/gh-release/ghutil/client"
 	log "github.com/sirupsen/logrus"
-	"golang.org/x/oauth2"
 )
 
 type ReleaseCreator struct {
 	username string
 	repo     string
-	client   *github.Client
+	client   *client.Client
 	ctx      context.Context
 }
 
-func NewReleaseCreator(username string, pat string, repo string) *ReleaseCreator {
+func NewReleaseCreator(client *client.Client, ctx context.Context, username string, repo string) *ReleaseCreator {
 
-	log.Info("Creating new client")
-	ctx := context.Background()
-	ts := oauth2.StaticTokenSource(
-		&oauth2.Token{AccessToken: pat},
-	)
-	tc := oauth2.NewClient(ctx, ts)
-
-	Client := github.NewClient(tc)
-
-	return &ReleaseCreator{username: username, repo: repo, client: Client, ctx: ctx}
+	return &ReleaseCreator{username: username, repo: repo, client: client, ctx: ctx}
 }
 
 func (s *ReleaseCreator) listCommits(sha string) ([]*github.RepositoryCommit, error) {
@@ -41,10 +32,14 @@ func (s *ReleaseCreator) listCommits(sha string) ([]*github.RepositoryCommit, er
 	var end int
 	for i, commit := range commits {
 
+		log.Debugf("commit: %v", *commit.SHA)
+
 		if commit.GetSHA() == sha {
 			end = i
 			break
 		}
+
+		log.Debugf("add commit: %v", *commit.SHA)
 	}
 
 	return commits[0:end], nil
@@ -56,9 +51,8 @@ func (s *ReleaseCreator) getLatestReleaseTag() (string, error) {
 
 	var tag string
 
-	release, response, err := s.client.Repositories.GetLatestRelease(s.ctx, s.username, s.repo)
+	release, _, err := s.client.Repositories.GetLatestRelease(s.ctx, s.username, s.repo)
 	if err != nil {
-		fmt.Printf("%+v", response)
 		return tag, err
 	}
 
@@ -109,12 +103,12 @@ func (s *ReleaseCreator) createRelease(name string, tag string, notes string) er
 		return err
 	}
 
-	fmt.Println(release.HTMLURL)
+	log.Infof("Created releanse: %v", *release.Name)
 
 	return nil
 }
 
-func (s *ReleaseCreator) CreateRelease() error {
+func (s *ReleaseCreator) CreateNewRelease(name string) error {
 
 	releaseTag, err := s.getLatestReleaseTag()
 	if err != nil {
@@ -130,13 +124,13 @@ func (s *ReleaseCreator) CreateRelease() error {
 		return err
 	}
 
+	if len(commits) == 0 {
+		return fmt.Errorf("no commits for new release found")
+	}
+
 	notes := s.createReleaseNotesFromCommits(commits)
 
-	fmt.Println("---")
-	fmt.Println(notes)
-	fmt.Println("---")
-
-	err = s.createRelease("v2", "v2", notes)
+	err = s.createRelease(name, name, notes)
 	if err != nil {
 		return err
 	}

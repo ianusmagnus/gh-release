@@ -1,0 +1,52 @@
+[
+  {
+    "name": "v5",
+    "zipball_url": "https://api.github.com/repos/jank6r/release-test/zipball/v5",
+    "tarball_url": "https://api.github.com/repos/jank6r/release-test/tarball/v5",
+    "commit": {
+      "sha": "d583958aede3f5fa97e57485ea85360b5de1ad86",
+      "url": "https://api.github.com/repos/jank6r/release-test/commits/d583958aede3f5fa97e57485ea85360b5de1ad86"
+    },
+    "node_id": "MDM6UmVmMjYzMDgzOTc0OnJlZnMvdGFncy92NQ=="
+  },
+  {
+    "name": "v4",
+    "zipball_url": "https://api.github.com/repos/jank6r/release-test/zipball/v4",
+    "tarball_url": "https://api.github.com/repos/jank6r/release-test/tarball/v4",
+    "commit": {
+      "sha": "6e5447d4e576ff3c73dabc3aca3e1e17c2275563",
+      "url": "https://api.github.com/repos/jank6r/release-test/commits/6e5447d4e576ff3c73dabc3aca3e1e17c2275563"
+    },
+    "node_id": "MDM6UmVmMjYzMDgzOTc0OnJlZnMvdGFncy92NA=="
+  },
+  {
+    "name": "v3",
+    "zipball_url": "https://api.github.com/repos/jank6r/release-test/zipball/v3",
+    "tarball_url": "https://api.github.com/repos/jank6r/release-test/tarball/v3",
+    "commit": {
+      "sha": "6e5447d4e576ff3c73dabc3aca3e1e17c2275563",
+      "url": "https://api.github.com/repos/jank6r/release-test/commits/6e5447d4e576ff3c73dabc3aca3e1e17c2275563"
+    },
+    "node_id": "MDM6UmVmMjYzMDgzOTc0OnJlZnMvdGFncy92Mw=="
+  },
+  {
+    "name": "v2",
+    "zipball_url": "https://api.github.com/repos/jank6r/release-test/zipball/v2",
+    "tarball_url": "https://api.github.com/repos/jank6r/release-test/tarball/v2",
+    "commit": {
+      "sha": "6e5447d4e576ff3c73dabc3aca3e1e17c2275563",
+      "url": "https://api.github.com/repos/jank6r/release-test/commits/6e5447d4e576ff3c73dabc3aca3e1e17c2275563"
+    },
+    "node_id": "MDM6UmVmMjYzMDgzOTc0OnJlZnMvdGFncy92Mg=="
+  },
+  {
+    "name": "v1",
+    "zipball_url": "https://api.github.com/repos/jank6r/release-test/zipball/v0.1.0",
+    "tarball_url": "https://api.github.com/repos/jank6r/release-test/tarball/v0.1.0",
+    "commit": {
+      "sha": "16fae25a52bcd3c31c23c1560f265f41c57a9e32",
+      "url": "https://api.github.com/repos/jank6r/release-test/commits/16fae25a52bcd3c31c23c1560f265f41c57a9e32"
+    },
+    "node_id": "MDM6UmVmMjYzMDgzOTc0OnJlZnMvdGFncy92MC4xLjA="
+  }
+]
